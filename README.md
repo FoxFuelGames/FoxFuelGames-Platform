@@ -1,7 +1,10 @@
-🦊 FoxFuel Games Platform
+🦊 FoxFuel Games
 
-Created by: FoxFuel Games
+Collect. Trade. Fuel the Game.
+
 Website: https://foxfuelgames.com
+Owner: Brae Smith
+Developer: Ben Bower
 License: MIT
 Status: Active Development
 
@@ -10,127 +13,178 @@ Status: Active Development
 
 🎯 Project Overview
 
-FoxFuel Games is building an all-in-one platform for collectors, resellers, and enthusiasts of trading cards and comics.
-The platform will feature:
+FoxFuel Games is an independent collectible and gaming brand based in West Virginia, focused on trading cards, comics, and pop-culture reselling.
 
-A card & comic inventory manager
-
-Real-time market value tracking
-
-Price data for Pokémon, One Piece, Disney Lorcana, Magic: The Gathering, Flesh and Blood, and major sports cards (NFL, NBA, MLB)
-
-Comic cataloging for Marvel, DC, Dark Horse, and indie publishers
-
-
-This app will help resellers organize collections, calculate value, and streamline selling.
+This repository powers the FoxFuel Games Website and Inventory App, built to help collectors and resellers manage, track, and value their collections in real time.
 
 
 ---
 
-⚙️ Core Features (Planned)
+💡 What We’re Building
 
-Category	Features
+1. Website – A modern, responsive showcase for the FoxFuel brand, inventory highlights, and shop links (eBay & Mercari).
 
-💳 Trading Card Tools	Scan or search cards, auto-detect game/set, view TCG values, add to inventory
-📚 Comic Tools	Barcode lookup, issue tracking, variant recognition, market price tracking
-💰 Market Value	Pull latest sold prices from TCGplayer, PriceCharting, or eBay
-📦 Inventory System	Add, edit, and categorize items by type, rarity, or set
-📊 Dashboard	See total value, profit/loss, and trending collectibles
-🔍 Search	Multi-game and comic filter search system
-☁️ Sync	Cloud backup via Firebase or Supabase
+
+2. Web App – A professional inventory and valuation tool to track card and comic collections, auto-fetch market values, and manage resell data.
+
 
 
 
 ---
 
-🧱 Tech Stack (Recommended)
+🧩 Core Features
+
+🌐 Website
+
+Sleek, mobile-friendly landing page featuring FoxFuel branding
+
+Shop buttons for eBay and Mercari
+
+Blog/posts section for product drops and community updates
+
+Contact form integrated with Gmail
+
+
+📦 Inventory App
+
+Add, edit, and organize trading card and comic inventory
+
+Auto-fetch card values from APIs (TCGplayer, eBay, or PriceCharting)
+
+Track total collection value, investment cost, and profit margin
+
+Export inventory to CSV or Excel
+
+Filter by card type, rarity, and set
+
+Cloud-based sync and backups
+
+
+
+---
+
+🧠 Supported Categories
+
+Trading Card Games
+
+Pokémon (English & Japanese)
+
+One Piece (English & Japanese)
+
+Magic: The Gathering
+
+Disney Lorcana
+
+Flesh and Blood
+
+Sports Cards (NFL, NBA, MLB)
+
+
+Comics
+
+Marvel
+
+DC
+
+Dark Horse
+
+Indie Publishers
+
+
+
+---
+
+⚙️ Tech Stack
 
 Layer	Tools
 
-Frontend	React (Create React App or Next.js)
+Frontend	React + TailwindCSS
 Backend	Node.js + Express
-Database	Firebase Firestore or Supabase
-APIs	TCGplayer API, eBay API, ComicVine API
-Auth	Firebase Auth (Email + Google login)
-Hosting	Namecheap (frontend) + Render or Vercel (backend)
+Database	Firebase Firestore (NoSQL)
+Hosting	Vercel / Firebase Hosting
+Auth	Firebase Authentication
+APIs	TCGplayer, eBay, PriceCharting, ComicVine
 
 
 
 ---
 
-🧑‍💻 Developer Instructions
+🧰 Setup Instructions
 
-1. Clone the repo
+1️⃣ Clone Repository
 
 git clone https://github.com/FoxFuelGames/foxfuelgames-platform.git
 cd foxfuelgames-platform
 
-
-2. Install dependencies
+2️⃣ Install Dependencies
 
 npm install
 
-
-3. Run development server
+3️⃣ Start Development Server
 
 npm start
 
-
-4. Build for production
+4️⃣ Build for Production
 
 npm run build
 
 
-
-
 ---
 
-🌐 Website Goals
+🛠️ Roadmap
 
-Create a professional homepage for FoxFuel Games
+[x] Create FoxFuel Games website
 
-Showcase mystery packs, collectibles, and upcoming apps
+[x] Connect eBay & Mercari shop links
 
-Include “Shop,” “About,” and “Contact” sections
+[ ] Develop inventory management dashboard
 
-Link to social media, eBay, and Mercari storefronts
+[ ] Add real-time price API integration
 
+[ ] Enable card & comic image upload
 
-
----
-
-📱 App Goals
-
-Let users scan or input cards and comics
-
-Automatically pull price data
-
-Save inventory to personal account
-
-Show live total value and market change percentage
-
-Export inventory list for eBay listings or taxes
+[ ] Deploy beta at inventory.foxfuelgames.com
 
 
 
 ---
 
-🤝 Credits
+🧑‍💻 Contributors
 
-Project Lead: Nia (FoxFuel Games)
+Role	Name
 
-Developer: Ben Bower – Junior Software Developer
+Owner / Brand Director	Brae Smith
+Lead Developer	Ben Bower
+Creative Direction	FoxFuel Team
 
-Design: FoxFuel Creative
 
-Support: FoxFuel Business Team
 
+---
+
+🔗 Links
+
+Official Website: foxfuelgames.com
+
+eBay Store: ebay.com/usr/foxfuelgames
+
+Mercari Store: mercari.com/u/foxfuelgames
+
+Facebook: facebook.com/FoxFuelGames
+
+Instagram: instagram.com/foxfuelgames
+
+
+
+---
+
+🦊 About FoxFuel Games
+
+FoxFuel Games is a West Virginia-based collectible resale business dedicated to making collecting affordable, fun, and accessible.
+We specialize in trading cards, comics, collectibles, and themed bundles for every type of collector — from beginners to long-time fans.
 
 
 ---
 
 📄 License
 
-This project is licensed under the MIT License — free for educational and commercial use.
-
-Add initial project README.
+This project is licensed under the MIT License — free for personal, educational, and commercial use.
